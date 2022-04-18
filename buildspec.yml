@@ -16,4 +16,4 @@ phases:
     - mvn package
 artifacts:
   files:
-  - target/airline
+  - target/Airline-Reservation-System-0.0.1-SNAPSHOT.jar

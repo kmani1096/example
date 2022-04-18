@@ -12,6 +12,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>Airline-Reservation-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Airline-Reservation-System</name>
 	<description>Airline Reservation System Project By manisha</description>
 	<properties>

@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<ul class="nav navbar">
+					<li><img src="/images/runway.png" style="width: 10%"> </li>
+					<li class="active"><a href="/">Airline Reservation System</a></li>
+				</ul>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="/">Login</a></li>
+				<li class="active"><a href="/">SignUp</a></li>
+				<li class="active"><a href="/">Famous Places</a></li>
+				<li class="active"><a href="/">Best Packages</a></li>
+				<li class="active"><a href="/">About Us</a></li>
+				<li class="active"><a href="/">Contact Us</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				
+			</ul>
+		</div>
+	</nav>

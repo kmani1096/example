@@ -18,3 +18,4 @@ artifacts:
   files:
   - target/*
   - appspec.yml
+  - scripts/*

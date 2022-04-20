@@ -1,0 +1,17 @@
+version: 0.0
+
+os: linux
+
+files:
+  - source: /home/ec2-user/server
+    destination: /tmp
+
+hooks:
+  ApplicationStop:
+    - location: stop-process.sh
+      timeout: 180
+      runas: ec2-user
+  ApplicationStart:
+    - location: start-process.sh
+      timeout: 180
+      runas: ec2-user

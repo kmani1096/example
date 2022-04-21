@@ -18,6 +18,4 @@ artifacts:
  files:
     - target/airline.war
     - appspec.yml
-    - scripts/start-process.sh
-    - scripts/stop-process.sh
-  discard-paths: yes
+ discard-paths: yes

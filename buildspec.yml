@@ -15,7 +15,9 @@ phases:
     - echo Build completed on `date`
     - mvn package
 artifacts:
-  files:
-  - target/*
-  - appspec.yml
-  - scripts/*
+ files:
+    - target/airline.war
+    - appspec.yml
+    - scripts/start-process.sh
+    - scripts/stop-process.sh
+  discard-paths: yes

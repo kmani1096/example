@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: /home/ec2-user/server
+  - source: /
     destination: /tmp
 
 hooks:

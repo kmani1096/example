@@ -3,15 +3,15 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
+  - source: /airline.war
     destination: /tmp
 
 hooks:
   ApplicationStop:
     - location: stop-process.sh
-      timeout: 80
+      timeout: 180
       runas: ec2-user
   ApplicationStart:
     - location: start-process.sh
-      timeout: 80
+      timeout: 180
       runas: ec2-user

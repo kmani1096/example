@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-sudo killall java
-exit 0
+ps -ef | grep airline.war | grep -v grep | awk '{print $2}' | xargs kill

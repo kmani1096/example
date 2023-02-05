@@ -8,7 +8,7 @@
 			<div class="inner-page">
 			<c:choose>
 			<c:when test='${isSuccess}'>
-				<p>Message Sent Successfully</p>
+				<p>Message Sent Sccessfully</p>
 			</c:when>
 		</c:choose>		
 			<div class="inner-page-sub-1">
